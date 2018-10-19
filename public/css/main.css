@@ -71,19 +71,13 @@ body{
 
 /*  General CSS*/
 
-h1, h2, h3, h4, h5 ,h6{
+h1{
     color: #ffffff;
-    font-family: "Aleo-Regular", arial;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
+    font-size: 20px;
 }
 
-h1              { font-size: 2em;}
-h2              { font-size: 1.5em;}
-h3              { font-size: 1.17em;}
-h5              { font-size: .83em;}
-h6              { font-size: .75em;}
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
 
 .clearfix:before,
 .clearfix:after {
@@ -117,8 +111,8 @@ h5, h6          { font-weight: bolder }
 
 .content H1{
     color: #fff;
-    font-family: "Aleo-Bold", arial;
-    font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -126,14 +120,15 @@ h5, h6          { font-weight: bolder }
 
 .content p{
     color: #fff;
-    font-family: "Aleo-Regular", arial;
-    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5px;
     letter-spacing: 1px;
-    line-height: 28px;
+    line-height: 40px;
 }
 
 .content p.description{
-    margin-top: 20px;
+    margin-top: 25px;
+    font-size: 45px;
 }
 
 .content .subscription_form{
@@ -364,4 +359,8 @@ h5, h6          { font-weight: bolder }
     bottom: -3px;
     left: 50%;
     margin-left: -3px;
+}
+
+.fa override{
+  font-size: 40px;
 }

@@ -1,29 +1,26 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/HeaderComponent'
-import Navbar from './components/NavBar'
+import header from './components/HeaderComponent'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <div className="App"  style={{
-          backgroundColor: 'white',
-          minHeight: window.innerHeight / 2,
-          minWidth: window.innerWidth,
-        }}>
-
-        </div>
-        <div className="App"  style={{
-          backgroundColor: 'black',
-          minHeight: window.innerHeight / 2,
-          minWidth: window.innerWidth,
-        }}>
-        <Header/>
-        <Navbar/>
-        </div>
+    <center>
+      <div className="App"  style={{
+        backgroundColor: 'white'
+      }}>Sean Conrad
+          <ul>
+            <li><a href="https://github.com/seanraad123" target="blank">code</a></li>
+            <li><div className="dot"/></li>
+            <li><a href="https://www.linkedin.com/in/sean-conrad-42375ab4/" target="blank">linkedin</a> </li>
+            <li><div className="dot"/></li>
+            <li><a href="https://www.youtube.com/channel/UCLIBeUsRF7y8ujq8NsDm7vw?view_as=subscriber" target="blank">skateboarding</a> </li>
+            <li><div className="dot"/></li>
+            <li><a href="mailto:seanconrad123@gmail.com">contact</a></li>
+          </ul>
       </div>
-    )
+    </center>
+    );
   }
 }
 
