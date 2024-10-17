@@ -1,0 +1,11 @@
+<svg width="100" height="100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="instaGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00667a"/>
+      <stop offset="100%" stop-color="#002d49"/>
+    </linearGradient>
+  </defs>
+  <rect width="24" height="24" fill="url(#instaGradient)" rx="5"/>
+  <path fill="#FFFFFF" d="M12 7.3A4.7 4.7 0 1 0 12 16.7 4.7 4.7 0 1 0 12 7.3zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm5.8-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z"/>
+  <path fill="#FFFFFF" d="M17.6 3H6.4C4.6 3 3.1 4.5 3.1 6.4v11.2C3.1 19.5 4.6 21 6.4 21h11.2c1.9 0 3.4-1.5 3.4-3.4V6.4C21 4.5 19.5 3 17.6 3zM19.5 17.6c0 1-0.9 1.9-1.9 1.9H6.4c-1 0-1.9-0.9-1.9-1.9V6.4c0-1 0.9-1.9 1.9-1.9h11.2c1 0 1.9 0.9 1.9 1.9v11.2z"/>
+</svg>
