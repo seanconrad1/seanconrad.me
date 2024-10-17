@@ -27,5 +27,5 @@ jobs:
           host: ${{ secrets.SEANRAD_SSH_HOST }}
           username: root
           key: ${{ secrets.SEANRAD_SSH_PUBLIC_KEY }}
-          source: "build"
+          source: "."
           target: "/var/www/html/seanconrad.me"
