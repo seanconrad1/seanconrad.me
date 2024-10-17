@@ -111,3 +111,7 @@ body {
   height: 42px;
   object-fit: cover;
 }
+
+.empty-container {
+  width: 42px;
+}
