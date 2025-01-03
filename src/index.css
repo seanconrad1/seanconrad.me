@@ -12,9 +12,13 @@ p {
   font-weight: 300; /* Adjust weight as needed for boldness */
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  height: 100%;
+  min-height: 100vh; /* Ensure the body extends to full viewport height */
 }
 
 .main-container {
@@ -22,6 +26,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 24px 0;
+  min-height: 100vh; /* Ensure the body extends to full viewport height */
 }
 
 .image {
@@ -120,4 +125,11 @@ body {
 
 .empty-container {
   width: 42px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    height: auto;
+    min-height: 100vh; /* Ensure the container extends to full viewport height */
+  }
 }
