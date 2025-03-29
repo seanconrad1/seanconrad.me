@@ -68,6 +68,7 @@ body {
 .item-container {
   cursor: pointer;
   max-width: 400px;
+  min-height: 68px;
   width: 100%;
   padding: 12px;
   background-color: white;
@@ -121,6 +122,9 @@ body {
   width: 42px;
   height: 42px;
   object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .empty-container {
